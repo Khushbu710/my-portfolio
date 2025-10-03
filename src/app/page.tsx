@@ -14,8 +14,8 @@ import {
   Zap,
   Database,
   GitBranch,
-  Star,
-  GitCommit
+  GitCommit,
+  Star
 } from 'lucide-react';
 
 // TypeScript: define types for skills and particles
@@ -207,7 +207,6 @@ export default function Portfolio() {
       company: 'Google Developers Group On Campus',
       period: 'Sept 2025 - Present',
       description: 'Core member in the GenAI field, with experience managing LinkedIn outreach, volunteering, and actively contributing to campaigns and study jams.',
-      
     },
     {
       title: 'Member',
@@ -227,38 +226,28 @@ export default function Portfolio() {
     title: string;
     description: string;
     tech: string[];
-    // stars: number;
-    // forks: number;
   };
 
   const projects: Project[] = [
     {
       title: 'AI Email Assistant',
       description: 'A Streamlit web app that generates professional or daily use emails using the latest open-source AI models via the Groq API. Simply enter your requirements and instantly get high-quality email drafts and improvement suggestions.',
-      tech: ['Stremlit', 'Groq API'],
-      // stars: 342,
-      // forks: 87
+      tech: ['Streamlit', 'Groq API'],
     },
     {
       title: 'Memory Haven',
       description: 'Memory Haven is a full-stack web application where users can securely store personal memories (text, images, audio, or video) that are only accessible after a future unlock date. Think of it as a digital time capsule platform!',
       tech: ['React', 'Node.js', 'MongoDB', 'JWT Authentication'],
-      // stars: 521,
-      // forks: 143
     },
     {
       title: 'SNTC Website',
       description: 'A website to manage club activities and schedule for SNTC, IIT Mandi.',
       tech: ['React', 'Next.js', 'Vercel'],
-      // stars: 289,
-      // forks: 76
     },
     {
       title: 'BookMyShow',
       description: 'A website made using GenAI to book movie tickets online.',
       tech: ['React', 'Next.js', 'Vercel'],
-      // stars: 289,
-      // forks: 76
     }
   ];
 
@@ -589,16 +578,7 @@ export default function Portfolio() {
                       ))}
                     </div>
                     
-                    <div className="flex items-center gap-4 text-sm text-slate-400 font-mono mt-auto">
-                      <span className="flex items-center gap-1">
-                        <Star size={16} className="text-cyan-400" />
-                        {project.stars}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <GitBranch size={16} className="text-cyan-400" />
-                        {project.forks}
-                      </span>
-                    </div>
+                    {/* Removed stars and forks display */}
                   </div>
                 ))}
               </div>
