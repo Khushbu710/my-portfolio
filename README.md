@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my personal portfolio! I am an engineering sophomore passionate about technology, development, and continuous learning. This site showcases my projects, skills, achievements, and provides information about my background.
+Welcome to my personal portfolio! This site showcases my projects, skills, achievements, and provides information about my background.
 
 ## 🚀 Live Demo
 
@@ -19,10 +19,8 @@ Check out the live site here: [(https://my-portfolio-4gj5-git-main-khushbu710s-p
 
 - Next.js
 - React
-- TypeScript
-- CSS Modules / Tailwind CSS / Styled-components *(update as per your stack)*
+- Tailwind CSS 
 - Vercel (for deployment)
-- Any other tools/libraries you used
 
 ## 📂 Folder Structure
 
@@ -65,4 +63,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-*Built with ❤️ and Next.js*
