@@ -301,7 +301,7 @@ export default function Portfolio() {
             <div className="flex justify-between items-center py-4">
               <div className="flex items-center gap-2">
                 <Terminal className="text-cyan-400" size={24} />
-                <span className="text-xl font-mono font-bold text-cyan-400">devName</span>
+                <span className="text-xl font-mono font-bold text-cyan-400">khushbuSharma</span>
               </div>
               <div className="hidden md:flex items-center gap-1">
                 {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item: string) => (
